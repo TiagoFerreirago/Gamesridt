@@ -9,8 +9,9 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
+// ORM
 @Entity
-@Table(name = "tb-game")
+@Table(name = "tb_game")
 public class Game {
 
 	@Id
@@ -25,7 +26,9 @@ public class Game {
 	private String platforms;
 	private Double score;
 	private String imgUrl; 
+	@Column(columnDefinition = "TEXT")
 	private String shortDescription;
+	@Column(columnDefinition = "TEXT")
 	private String longDescription;
 	
 	
