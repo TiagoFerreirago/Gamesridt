@@ -23,13 +23,19 @@ public class GameListController {
 	// injetando dependencia
 	@Autowired
 	private GameListService gameListService;
-	
+	@Autowired
+	private GameService gameService;
 	// tipo de requisição
 	@GetMapping
 	public List <GameListDto> findAll(){
 		List <GameListDto> result = gameListService.findAll();
 		return result;
 	
+	}
+	@GetMapping (value = "/{listId}/games")
+	public List <GameMinDto> findByList(@PathVariable Long listId){
+		List <GameMinDto> result = gameService.searchById(listId);
+		return result;
 	}
 }
  

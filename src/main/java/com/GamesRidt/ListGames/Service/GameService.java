@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 import com.GamesRidt.ListGames.DTO.GameDto;
 import com.GamesRidt.ListGames.DTO.GameMinDto;
 import com.GamesRidt.ListGames.entities.Game;
+import com.GamesRidt.ListGames.projection.GameMinProjection;
 import com.GamesRidt.ListGames.repositories.GameRepository;
 
 //anotação realiza o registro do componente servico
@@ -32,6 +33,12 @@ public class GameService {
 		List<Game> result= gameRepository.findAll();
 		List<GameMinDto> dto = result.stream().map(x -> new GameMinDto(x)).toList();
 		return dto;
+	}
+	
+	@Transactional(readOnly = true)
+	public List <GameMinDto> searchById(Long listId){
+		List <GameMinProjection> result = gameRepository.searchByList(listId);
+		return result.stream().map(x -> new GameMinDto(x)).toList();
 	}
 	
 
