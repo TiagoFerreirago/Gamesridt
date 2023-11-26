@@ -11,8 +11,8 @@ A aplicação destaca os games mais populares em duas páginas distintas. Na pri
 ## Categoria
 ![Categoria](https://github.com/TiagoFerreirago/Repositoryphoto/blob/main/categoria.png)
 
-## Layout web
-![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
+## Aventura e Rpg
+![Web 1](https://github.com/TiagoFerreirago/Repositoryphoto/blob/main/lista%201.png)
 
 ![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
 
