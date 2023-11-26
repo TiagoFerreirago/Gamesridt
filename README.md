@@ -14,10 +14,13 @@ A aplicação destaca os games mais populares em duas páginas distintas. Na pri
 ## Aventura e Rpg
 ![Web 1](https://github.com/TiagoFerreirago/Repositoryphoto/blob/main/lista%201.png)
 
-![Web 2](https://github.com/acenelio/assets/raw/main/sds1/web2.png)
+## Jogos de Plataforma
+![Web 2](https://github.com/TiagoFerreirago/Repositoryphoto/blob/main/lista%202.png)
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+# Game Delhado
+![Web 3](https://github.com/TiagoFerreirago/Repositoryphoto/blob/main/detalhada.png)
+## Modelo de Dominio
+![Modelo Conceitual](https://github.com/TiagoFerreirago/Repositoryphoto/blob/main/dslist-model.png)
 
 # Tecnologias utilizadas
 ## Back end
