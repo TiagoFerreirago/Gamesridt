@@ -3,11 +3,10 @@
 
 # Sobre o projeto
 
-https://wmazoni-sds1.netlify.app
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+Gameridt é uma aplicação backend construída durante o **intensivo spring boot**, evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+A aplicação destaca os games mais populares em duas páginas distintas. Na primeira, apresenta uma lista com descrições amplas sobre cada jogo. Ao clicar em "detalhes", os usuários podem explorar sinopses detalhadas, proporcionando uma experiência informativa e envolvente.
 
 ## Layout mobile
 ![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
@@ -26,25 +25,22 @@ A aplicação consiste em uma pesquisa de preferência de games, onde os dados s
 - Spring Boot
 - JPA / Hibernate
 - Maven
-## Front end
-- HTML / CSS / JS / TypeScript
-- ReactJS
-- React Native
-- Apex Charts
-- Expo
+  
+## Banco de Dados
+- H2
+- PostgreSQL
+  
 ## Implantação em produção
-- Back end: Heroku
-- Front end web: Netlify
-- Banco de dados: Postgresql
+- Postman
 
 # Como executar o projeto
 
 ## Back end
-Pré-requisitos: Java 11
+Pré-requisitos: Java 17
 
 ```bash
 # clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
+git clone git@github.com:TiagoFerreirago/Gamesridt.git
 
 # entrar na pasta do projeto back end
 cd backend
@@ -53,27 +49,10 @@ cd backend
 ./mvnw spring-boot:run
 ```
 
-## Front end web
-Pré-requisitos: npm / yarn
-
-```bash
-# clonar repositório
-git clone https://github.com/devsuperior/sds1-wmazoni
-
-# entrar na pasta do projeto front end web
-cd front-web
-
-# instalar dependências
-yarn install
-
-# executar o projeto
-yarn start
-```
-
 # Autor
 
-Wellington Mazoni de Andrade
+Tiago de Jesus Ferreira
 
-https://www.linkedin.com/in/wmazoni
+https://www.linkedin.com/in/tiago-de-jesus-ferreira-a6648b1b2/
 
 # Gamesridt
