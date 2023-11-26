@@ -1,5 +1,5 @@
 # Big Game Survey 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/devsuperior/sds1-wmazoni/blob/master/LICENSE) 
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/TiagoFerreirago/Gamesridt/blob/main/LICENSE) 
 
 # Sobre o projeto
 
@@ -8,8 +8,8 @@ Gameridt é uma aplicação backend construída durante o **intensivo spring boo
 
 A aplicação destaca os games mais populares em duas páginas distintas. Na primeira, apresenta uma lista com descrições amplas sobre cada jogo. Ao clicar em "detalhes", os usuários podem explorar sinopses detalhadas, proporcionando uma experiência informativa e envolvente.
 
-## Layout mobile
-![Mobile 1](https://github.com/acenelio/assets/raw/main/sds1/mobile1.png) ![Mobile 2](https://github.com/acenelio/assets/raw/main/sds1/mobile2.png)
+## Categoria
+![Categoria](https://github.com/TiagoFerreirago/Repositoryphoto/blob/main/categoria.png)
 
 ## Layout web
 ![Web 1](https://github.com/acenelio/assets/raw/main/sds1/web1.png)
