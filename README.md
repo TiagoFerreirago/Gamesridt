@@ -56,6 +56,5 @@ cd backend
 
 Tiago de Jesus Ferreira
 
-https://www.linkedin.com/in/tiago-de-jesus-ferreira-a6648b1b2/
+https://www.linkedin.com/in/tiagoferreira97/
 
-# Gamesridt
